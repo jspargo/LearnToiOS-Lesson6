@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.2'
 
 target 'LearnToWeek5Networking' do
 
@@ -7,6 +7,7 @@ target 'LearnToWeek5Networking' do
 
   
   pod 'Alamofire'
+  pod 'Kingfisher'
 
   target 'LearnToWeek5NetworkingTests' do
     inherit! :search_paths

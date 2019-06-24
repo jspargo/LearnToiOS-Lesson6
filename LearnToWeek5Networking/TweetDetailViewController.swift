@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class TweetDetailViewController: UIViewController {
   
@@ -51,8 +52,11 @@ class TweetDetailViewController: UIViewController {
 
     private func loadProfileImage(from urlString: String) {
         let avatarUrl = URL(string: urlString)!
-        let data = try! Data(contentsOf: avatarUrl)
-        profileImageView.image = UIImage(data: data)
+//        let data = try! Data(contentsOf: avatarUrl)
+//        profileImageView.image = UIImage(data: data)
+
+        profileImageView.kf.indicatorType = .activity
+        profileImageView.kf.setImage(with: avatarUrl)
 
         profileImageView.layer.masksToBounds = true
         profileImageView.layer.cornerRadius = profileImageView.frame.height / 2
