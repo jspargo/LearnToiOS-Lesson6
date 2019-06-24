@@ -22,8 +22,8 @@ class TweetManager {
   }
 
   func isTweetValid(tweet: String) -> Bool {
-    // Checks...
-    return true
+    // Checks length
+    return tweet.count < 256
   }
 
   func getTweets(completion: @escaping ([Tweet]) -> ()) {

@@ -16,10 +16,4 @@ public extension Date {
     dateFormatter.dateFormat = format
     return dateFormatter.string(from: self)
   }
-
-  static func random() -> Date {
-    let randomTime = TimeInterval(arc4random_uniform(UInt32.max))
-    return Date(timeIntervalSince1970: randomTime)
-  }
-
 }
