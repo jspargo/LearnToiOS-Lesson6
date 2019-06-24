@@ -1,0 +1,6 @@
+framework module Pods_LearnToWeek5NetworkingUITests {
+  umbrella header "Pods-LearnToWeek5NetworkingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

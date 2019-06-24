@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430AB5C6F99A3FBC1B025C8C /* Pods_LearnToWeek5NetworkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC87628486B30458C52D74E /* Pods_LearnToWeek5NetworkingUITests.framework */; };
+		A4BB94FCA7BA37E74F0CF109 /* Pods_LearnToWeek5Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D8D1746FC1C7BB929EBCBA /* Pods_LearnToWeek5Networking.framework */; };
+		D4E8EE61360DA172A1EFACA0 /* Pods_LearnToWeek5NetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C9B834B801FC84E8745B9 /* Pods_LearnToWeek5NetworkingTests.framework */; };
+		FC37A81922B6C91900303A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37A81822B6C91900303A6E /* AppDelegate.swift */; };
+		FC37A82022B6C91B00303A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC37A81F22B6C91B00303A6E /* Assets.xcassets */; };
+		FC37A82322B6C91B00303A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC37A82122B6C91B00303A6E /* LaunchScreen.storyboard */; };
+		FC37A82E22B6C91B00303A6E /* LearnToWeek5NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37A82D22B6C91B00303A6E /* LearnToWeek5NetworkingTests.swift */; };
+		FC37A83922B6C91B00303A6E /* LearnToWeek5NetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37A83822B6C91B00303A6E /* LearnToWeek5NetworkingUITests.swift */; };
+		FC509F5C22B9638A0074C781 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F5B22B9638A0074C781 /* Repo.swift */; };
+		FC509F6722BFC7EF0074C781 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F5D22BFC7EE0074C781 /* Tweet.swift */; };
+		FC509F6922BFC7EF0074C781 /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F5F22BFC7EF0074C781 /* DateHelpers.swift */; };
+		FC509F6A22BFC7EF0074C781 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = FC509F6022BFC7EF0074C781 /* avatar.png */; };
+		FC509F6B22BFC7EF0074C781 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F6122BFC7EF0074C781 /* TweetViewController.swift */; };
+		FC509F6C22BFC7EF0074C781 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F6222BFC7EF0074C781 /* TweetDetailViewController.swift */; };
+		FC509F6D22BFC7EF0074C781 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F6322BFC7EF0074C781 /* TweetTableViewCell.swift */; };
+		FC509F6E22BFC7EF0074C781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC509F6422BFC7EF0074C781 /* Main.storyboard */; };
+		FC509F6F22BFC7EF0074C781 /* TweetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F6522BFC7EF0074C781 /* TweetManager.swift */; };
+		FC509F7022BFC7EF0074C781 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC509F6622BFC7EF0074C781 /* TweetTableViewController.swift */; };
+		FCD217EC22B6D36300F04FA0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD217EB22B6D36300F04FA0 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC37A82A22B6C91B00303A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC37A80D22B6C91900303A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC37A81422B6C91900303A6E;
+			remoteInfo = LearnToWeek5Networking;
+		};
+		FC37A83522B6C91B00303A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC37A80D22B6C91900303A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC37A81422B6C91900303A6E;
+			remoteInfo = LearnToWeek5Networking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F389C3FCF2C5DADB869351 /* Pods-LearnToWeek5NetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5NetworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5NetworkingTests/Pods-LearnToWeek5NetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		420F8D4AC141727363A72E8B /* Pods-LearnToWeek5NetworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5NetworkingUITests.release.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5NetworkingUITests/Pods-LearnToWeek5NetworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FC87628486B30458C52D74E /* Pods_LearnToWeek5NetworkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnToWeek5NetworkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBED2CD8D3036ED6E12493B /* Pods-LearnToWeek5NetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5NetworkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5NetworkingUITests/Pods-LearnToWeek5NetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77D8D1746FC1C7BB929EBCBA /* Pods_LearnToWeek5Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnToWeek5Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C96BFF0F8E40A883AB1D03 /* Pods-LearnToWeek5Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5Networking.release.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5Networking/Pods-LearnToWeek5Networking.release.xcconfig"; sourceTree = "<group>"; };
+		97C6B2EC2786AD37C1389A86 /* Pods-LearnToWeek5NetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5NetworkingTests.release.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5NetworkingTests/Pods-LearnToWeek5NetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC8F3DBB2D30BACBD404A9C3 /* Pods-LearnToWeek5Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnToWeek5Networking.debug.xcconfig"; path = "Target Support Files/Pods-LearnToWeek5Networking/Pods-LearnToWeek5Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6C9B834B801FC84E8745B9 /* Pods_LearnToWeek5NetworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnToWeek5NetworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC37A81522B6C91900303A6E /* LearnToWeek5Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnToWeek5Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC37A81822B6C91900303A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC37A81F22B6C91B00303A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC37A82222B6C91B00303A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC37A82422B6C91B00303A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC37A82922B6C91B00303A6E /* LearnToWeek5NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnToWeek5NetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC37A82D22B6C91B00303A6E /* LearnToWeek5NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnToWeek5NetworkingTests.swift; sourceTree = "<group>"; };
+		FC37A82F22B6C91B00303A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC37A83422B6C91B00303A6E /* LearnToWeek5NetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnToWeek5NetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC37A83822B6C91B00303A6E /* LearnToWeek5NetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnToWeek5NetworkingUITests.swift; sourceTree = "<group>"; };
+		FC37A83A22B6C91B00303A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC509F5B22B9638A0074C781 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		FC509F5D22BFC7EE0074C781 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		FC509F5F22BFC7EF0074C781 /* DateHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		FC509F6022BFC7EF0074C781 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		FC509F6122BFC7EF0074C781 /* TweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		FC509F6222BFC7EF0074C781 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+		FC509F6322BFC7EF0074C781 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		FC509F6422BFC7EF0074C781 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FC509F6522BFC7EF0074C781 /* TweetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetManager.swift; sourceTree = "<group>"; };
+		FC509F6622BFC7EF0074C781 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		FCD217EB22B6D36300F04FA0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC37A81222B6C91900303A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB94FCA7BA37E74F0CF109 /* Pods_LearnToWeek5Networking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A82622B6C91B00303A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E8EE61360DA172A1EFACA0 /* Pods_LearnToWeek5NetworkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A83122B6C91B00303A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430AB5C6F99A3FBC1B025C8C /* Pods_LearnToWeek5NetworkingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C6DDD5E7D4F2823DABEE2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D8D1746FC1C7BB929EBCBA /* Pods_LearnToWeek5Networking.framework */,
+				CD6C9B834B801FC84E8745B9 /* Pods_LearnToWeek5NetworkingTests.framework */,
+				4FC87628486B30458C52D74E /* Pods_LearnToWeek5NetworkingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89EE5F11BF26202DBD7FFD7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F3DBB2D30BACBD404A9C3 /* Pods-LearnToWeek5Networking.debug.xcconfig */,
+				96C96BFF0F8E40A883AB1D03 /* Pods-LearnToWeek5Networking.release.xcconfig */,
+				21F389C3FCF2C5DADB869351 /* Pods-LearnToWeek5NetworkingTests.debug.xcconfig */,
+				97C6B2EC2786AD37C1389A86 /* Pods-LearnToWeek5NetworkingTests.release.xcconfig */,
+				5CBED2CD8D3036ED6E12493B /* Pods-LearnToWeek5NetworkingUITests.debug.xcconfig */,
+				420F8D4AC141727363A72E8B /* Pods-LearnToWeek5NetworkingUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC37A80C22B6C91900303A6E = {
+			isa = PBXGroup;
+			children = (
+				FC37A81722B6C91900303A6E /* LearnToWeek5Networking */,
+				FC37A82C22B6C91B00303A6E /* LearnToWeek5NetworkingTests */,
+				FC37A83722B6C91B00303A6E /* LearnToWeek5NetworkingUITests */,
+				FC37A81622B6C91900303A6E /* Products */,
+				89EE5F11BF26202DBD7FFD7C /* Pods */,
+				15C6DDD5E7D4F2823DABEE2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC37A81622B6C91900303A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC37A81522B6C91900303A6E /* LearnToWeek5Networking.app */,
+				FC37A82922B6C91B00303A6E /* LearnToWeek5NetworkingTests.xctest */,
+				FC37A83422B6C91B00303A6E /* LearnToWeek5NetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC37A81722B6C91900303A6E /* LearnToWeek5Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FC509F7322BFC9270074C781 /* Network Layer */,
+				FC509F7222BFC8F10074C781 /* Helpers */,
+				FC509F7122BFC8C80074C781 /* Tweet Model and Managers */,
+				FC509F6022BFC7EF0074C781 /* avatar.png */,
+				FC509F6422BFC7EF0074C781 /* Main.storyboard */,
+				FC509F6222BFC7EF0074C781 /* TweetDetailViewController.swift */,
+				FC509F6322BFC7EF0074C781 /* TweetTableViewCell.swift */,
+				FC509F6622BFC7EF0074C781 /* TweetTableViewController.swift */,
+				FC509F6122BFC7EF0074C781 /* TweetViewController.swift */,
+				FC37A81822B6C91900303A6E /* AppDelegate.swift */,
+				FC37A81F22B6C91B00303A6E /* Assets.xcassets */,
+				FC37A82122B6C91B00303A6E /* LaunchScreen.storyboard */,
+				FC37A82422B6C91B00303A6E /* Info.plist */,
+				FC509F5B22B9638A0074C781 /* Repo.swift */,
+			);
+			path = LearnToWeek5Networking;
+			sourceTree = "<group>";
+		};
+		FC37A82C22B6C91B00303A6E /* LearnToWeek5NetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC37A82D22B6C91B00303A6E /* LearnToWeek5NetworkingTests.swift */,
+				FC37A82F22B6C91B00303A6E /* Info.plist */,
+			);
+			path = LearnToWeek5NetworkingTests;
+			sourceTree = "<group>";
+		};
+		FC37A83722B6C91B00303A6E /* LearnToWeek5NetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC37A83822B6C91B00303A6E /* LearnToWeek5NetworkingUITests.swift */,
+				FC37A83A22B6C91B00303A6E /* Info.plist */,
+			);
+			path = LearnToWeek5NetworkingUITests;
+			sourceTree = "<group>";
+		};
+		FC509F7122BFC8C80074C781 /* Tweet Model and Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FC509F5D22BFC7EE0074C781 /* Tweet.swift */,
+				FC509F6522BFC7EF0074C781 /* TweetManager.swift */,
+			);
+			path = "Tweet Model and Managers";
+			sourceTree = "<group>";
+		};
+		FC509F7222BFC8F10074C781 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC509F5F22BFC7EF0074C781 /* DateHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC509F7322BFC9270074C781 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				FCD217EB22B6D36300F04FA0 /* NetworkManager.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC37A81422B6C91900303A6E /* LearnToWeek5Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC37A83D22B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5Networking" */;
+			buildPhases = (
+				0A568A391203B58B33A84EE2 /* [CP] Check Pods Manifest.lock */,
+				FC37A81122B6C91900303A6E /* Sources */,
+				FC37A81222B6C91900303A6E /* Frameworks */,
+				FC37A81322B6C91900303A6E /* Resources */,
+				C15286EB1F2492E558C62BD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnToWeek5Networking;
+			productName = LearnToWeek5Networking;
+			productReference = FC37A81522B6C91900303A6E /* LearnToWeek5Networking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC37A82822B6C91B00303A6E /* LearnToWeek5NetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC37A84022B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5NetworkingTests" */;
+			buildPhases = (
+				96CE9E88A0D44B536617C95B /* [CP] Check Pods Manifest.lock */,
+				FC37A82522B6C91B00303A6E /* Sources */,
+				FC37A82622B6C91B00303A6E /* Frameworks */,
+				FC37A82722B6C91B00303A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC37A82B22B6C91B00303A6E /* PBXTargetDependency */,
+			);
+			name = LearnToWeek5NetworkingTests;
+			productName = LearnToWeek5NetworkingTests;
+			productReference = FC37A82922B6C91B00303A6E /* LearnToWeek5NetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC37A83322B6C91B00303A6E /* LearnToWeek5NetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC37A84322B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5NetworkingUITests" */;
+			buildPhases = (
+				CEA7324EEE6EC972E48A7E93 /* [CP] Check Pods Manifest.lock */,
+				FC37A83022B6C91B00303A6E /* Sources */,
+				FC37A83122B6C91B00303A6E /* Frameworks */,
+				FC37A83222B6C91B00303A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC37A83622B6C91B00303A6E /* PBXTargetDependency */,
+			);
+			name = LearnToWeek5NetworkingUITests;
+			productName = LearnToWeek5NetworkingUITests;
+			productReference = FC37A83422B6C91B00303A6E /* LearnToWeek5NetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC37A80D22B6C91900303A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kris Jones";
+				TargetAttributes = {
+					FC37A81422B6C91900303A6E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FC37A82822B6C91B00303A6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC37A81422B6C91900303A6E;
+					};
+					FC37A83322B6C91B00303A6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FC37A81422B6C91900303A6E;
+					};
+				};
+			};
+			buildConfigurationList = FC37A81022B6C91900303A6E /* Build configuration list for PBXProject "LearnToWeek5Networking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC37A80C22B6C91900303A6E;
+			productRefGroup = FC37A81622B6C91900303A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC37A81422B6C91900303A6E /* LearnToWeek5Networking */,
+				FC37A82822B6C91B00303A6E /* LearnToWeek5NetworkingTests */,
+				FC37A83322B6C91B00303A6E /* LearnToWeek5NetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC37A81322B6C91900303A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC509F6A22BFC7EF0074C781 /* avatar.png in Resources */,
+				FC37A82322B6C91B00303A6E /* LaunchScreen.storyboard in Resources */,
+				FC37A82022B6C91B00303A6E /* Assets.xcassets in Resources */,
+				FC509F6E22BFC7EF0074C781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A82722B6C91B00303A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A83222B6C91B00303A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A568A391203B58B33A84EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnToWeek5Networking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CE9E88A0D44B536617C95B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnToWeek5NetworkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15286EB1F2492E558C62BD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnToWeek5Networking/Pods-LearnToWeek5Networking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnToWeek5Networking/Pods-LearnToWeek5Networking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA7324EEE6EC972E48A7E93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnToWeek5NetworkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC37A81122B6C91900303A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD217EC22B6D36300F04FA0 /* NetworkManager.swift in Sources */,
+				FC509F6C22BFC7EF0074C781 /* TweetDetailViewController.swift in Sources */,
+				FC509F6D22BFC7EF0074C781 /* TweetTableViewCell.swift in Sources */,
+				FC509F6722BFC7EF0074C781 /* Tweet.swift in Sources */,
+				FC509F6922BFC7EF0074C781 /* DateHelpers.swift in Sources */,
+				FC509F6B22BFC7EF0074C781 /* TweetViewController.swift in Sources */,
+				FC509F6F22BFC7EF0074C781 /* TweetManager.swift in Sources */,
+				FC509F7022BFC7EF0074C781 /* TweetTableViewController.swift in Sources */,
+				FC37A81922B6C91900303A6E /* AppDelegate.swift in Sources */,
+				FC509F5C22B9638A0074C781 /* Repo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A82522B6C91B00303A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC37A82E22B6C91B00303A6E /* LearnToWeek5NetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC37A83022B6C91B00303A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC37A83922B6C91B00303A6E /* LearnToWeek5NetworkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC37A82B22B6C91B00303A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC37A81422B6C91900303A6E /* LearnToWeek5Networking */;
+			targetProxy = FC37A82A22B6C91B00303A6E /* PBXContainerItemProxy */;
+		};
+		FC37A83622B6C91B00303A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC37A81422B6C91900303A6E /* LearnToWeek5Networking */;
+			targetProxy = FC37A83522B6C91B00303A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC37A82122B6C91B00303A6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC37A82222B6C91B00303A6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC37A83B22B6C91B00303A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC37A83C22B6C91B00303A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC37A83E22B6C91B00303A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8F3DBB2D30BACBD404A9C3 /* Pods-LearnToWeek5Networking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5Networking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5Networking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC37A83F22B6C91B00303A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C96BFF0F8E40A883AB1D03 /* Pods-LearnToWeek5Networking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5Networking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5Networking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC37A84122B6C91B00303A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F389C3FCF2C5DADB869351 /* Pods-LearnToWeek5NetworkingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5NetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnToWeek5Networking.app/LearnToWeek5Networking";
+			};
+			name = Debug;
+		};
+		FC37A84222B6C91B00303A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C6B2EC2786AD37C1389A86 /* Pods-LearnToWeek5NetworkingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5NetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnToWeek5Networking.app/LearnToWeek5Networking";
+			};
+			name = Release;
+		};
+		FC37A84422B6C91B00303A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBED2CD8D3036ED6E12493B /* Pods-LearnToWeek5NetworkingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5NetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5NetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnToWeek5Networking;
+			};
+			name = Debug;
+		};
+		FC37A84522B6C91B00303A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420F8D4AC141727363A72E8B /* Pods-LearnToWeek5NetworkingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE4786KV4M;
+				INFOPLIST_FILE = LearnToWeek5NetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjones.LearnToWeek5NetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnToWeek5Networking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC37A81022B6C91900303A6E /* Build configuration list for PBXProject "LearnToWeek5Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC37A83B22B6C91B00303A6E /* Debug */,
+				FC37A83C22B6C91B00303A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC37A83D22B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC37A83E22B6C91B00303A6E /* Debug */,
+				FC37A83F22B6C91B00303A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC37A84022B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5NetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC37A84122B6C91B00303A6E /* Debug */,
+				FC37A84222B6C91B00303A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC37A84322B6C91B00303A6E /* Build configuration list for PBXNativeTarget "LearnToWeek5NetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC37A84422B6C91B00303A6E /* Debug */,
+				FC37A84522B6C91B00303A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC37A80D22B6C91900303A6E /* Project object */;
+}
