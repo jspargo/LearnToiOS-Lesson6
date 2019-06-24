@@ -51,7 +51,7 @@ class TweetViewController: UIViewController, UITextViewDelegate, TweetManagerDel
       print("Tweet is valid")
       
 
-      tweetManager.sendTweet(tweet: self.tweetTextView.text, user: "KrisJones4", userAvatarUrl: "https://pbs.twimg.com/profile_images/1012309872040431617/ebqo17g-_400x400.jpg") {
+        tweetManager.sendTweet(tweet: self.tweetTextView.text, user: "JoeBloggs", userAvatarUrl: "https://pbs.twimg.com/profile_images/1035649273721847809/B0f8n_oe_400x400.jpg") {
         let alertView = UIAlertController(title: "Success", message: "Tweet Successfully Sent", preferredStyle: .alert)
         alertView.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
           self.dismiss(animated: true, completion: nil)
