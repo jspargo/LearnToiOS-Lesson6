@@ -46,6 +46,15 @@ class TweetDetailViewController: UIViewController {
     nameLabel.text = tweet.tweetedBy
     tweetLabel.text = tweet.tweet
     tweetDateLabel.text = dateFormatter.string(from: tweet.dateTweeted)
+    loadProfileImage(from: tweet.avatarUrl)
   }
-  
+
+    private func loadProfileImage(from urlString: String) {
+        let avatarUrl = URL(string: urlString)!
+        let data = try! Data(contentsOf: avatarUrl)
+        profileImageView.image = UIImage(data: data)
+
+        profileImageView.layer.masksToBounds = true
+        profileImageView.layer.cornerRadius = profileImageView.frame.height / 2
+    }
 }
